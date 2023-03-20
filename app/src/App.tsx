@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
+import Button from './components/atoms/Button/Button'
 
 function App() {
   return (
@@ -18,9 +19,13 @@ function App() {
         >
           Learn React
         </a>
+        <h2 className="text-3xl font-sans font-bold underline">
+          Hello World!!
+        </h2>
+        <Button variant="green-fill">Button</Button>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
